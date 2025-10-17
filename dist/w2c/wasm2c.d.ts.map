@@ -1,0 +1,1 @@
+{"version":3,"file":"wasm2c.d.ts","sourceRoot":"","sources":["../../src/w2c/wasm2c.ts"],"names":[],"mappings":"AA0CA;;;;;;GAMG;AACH,wBAAsB,QAAQ,kBAY7B;AAED;;GAEG;AACH,MAAM,WAAW,qBAAqB;IACpC;;OAEG;IACH,UAAU,CAAC,EAAE,MAAM,CAAC;CACrB;AAED;;;;;;;GAOG;AACH,wBAAsB,gBAAgB,CACpC,SAAS,EAAE,MAAM,EACjB,gBAAgB,EAAE,MAAM,EACxB,OAAO,CAAC,EAAE,qBAAqB,iBAYhC"}

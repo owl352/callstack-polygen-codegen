@@ -1,0 +1,35 @@
+{
+  "name": "@callstack/polygen-codegen",
+  "version": "0.2.0",
+  "description": "The code generator for @callstack/polygen",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "assets",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "postinstall": "tsc -p tsconfig.json || true",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@callstack/polygen-binary-utils": "0.1.0",
+    "@callstack/polygen-project": "0.2.0",
+    "@callstack/wasm-parser": "0.1.0",
+    "execa": "^9.4.1",
+    "indent-string": "^5.0.0",
+    "strip-indent": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
