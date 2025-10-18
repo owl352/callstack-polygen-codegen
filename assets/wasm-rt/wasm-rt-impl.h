@@ -584,7 +584,7 @@ const char* wasm_rt_strerror(wasm_rt_trap_t trap);
  *    wasm_rt_memory_t my_memory;
  *    // 1 initial page (65536 bytes), and a maximum of 2 pages,
  *    // indexed with an i32
- *    wasm_rt_allocate_memory(&my_memory, 1, 2, false);
+ *    wasm_rt_allocate_memory(&my_memory, 1, 2, false, 65536);
  *  ```
  */
 void wasm_rt_allocate_memory(wasm_rt_memory_t*,
